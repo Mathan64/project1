@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;  
+}
+body{
+    background-color:rgb(232, 136, 45);
+    border: 2px solid black;
+}
+.menub{
+    display:inline-block;
+    margin:1rem 2rem 1rem 2rem;
+    color: white;
+}
+ul{
+    list-style: none;
+    background-color: black;
+    width: 100%;
+    position:fixed;
+    margin-top:0px;
+}
+.menub:nth-child(1){
+    font-family:stencil;
+    font-size:2rem;
+    color:rgb(232, 136, 45);
+    text-align:left;
+    margin-right:22em;
+    margin-left:60px;
+}
+.menub:nth-child(5){
+    background-color: aqua;
+    color: black;
+    border: 1px solid white;
+    border-radius:10%;
+    padding:0.3em;
+    font-size:1rem;
+}
+.menub:nth-child(6){
+    background-color:#ff0000;
+    color: black;
+    border: 1px solid white;
+    border-radius:10%;
+    padding:0.3em;
+    font-size:1rem;
+}
+.bhimg{
+   background-image:url(img/homeimg.jpg);
+   background-repeat: no-repeat;
+   background-size:100%;
+   font-size:5rem;
+   font-family:'Times New Roman', Times, serif;
+   color: beige;
+   padding: 15rem;
+   text-align: center;
+   margin:60px 10px 60px 10px;
+}
+.abouti{
+   border-radius:20%;
+   margin:30px;
+}
+span{
+    font-size:3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(243, 6, 6);
+}
+.abcon{
+    font-size:2rem;
+    margin-top: 30px;
+}
+.abline{
+    display: flex;
+}
+h1{
+    text-decoration:underline;
+    font-size:3rem;
+    margin-top:50px;
+}
+.itemh{
+    border: 1px solid black;
+    background-color: azure;
+    width: 180px;
+    border-radius:15%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:20px 40px 60px 40px;
+}
+.menu1{
+   text-align: center;
+   text-decoration:none;
+   background-color: black;
+   color: azure;
+   border: 1px solid white;
+   margin:30px 400px 60px 400px;
+   padding:0.5rem;
+   border-radius: 50%;
+}
+footer{
+    background-color:rgb(0, 0, 0);
+    border:2px solid white;
+    color: whitesmoke;
+    font-size:1.5rem;
+}
+input,button{
+    font-size:inherit;
+    width:455px;
+    margin-top:30px;
+}
+button{
+    background-color:rgb(232, 136, 45) ;
+    padding: 0.5em;;
+}
+.con{
+    margin: 10px 450px 0px 100px;
+    font-size:3rem;
+}
+.c{
+    font-size:5rem;
+}
+a{
+    text-decoration:none;
+    color: azure;
+}
+a:hover,a:focus{
+    background-color: azure;
+    color: black;
+    padding: 0.5em;
+    border-radius:15%;
+}
+.itemh:hover,.itemh:focus{
+    transform: translateY(-1rem);
+    background-color: rgb(3, 3, 3);
+    color:white;
+}
